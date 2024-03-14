@@ -1,0 +1,62 @@
+/* Reset básico para eliminar estilos predeterminados del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+   }
+   
+   .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   
+   .header {
+    background-color: #3EEDE1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+   }
+   
+   .main-content {
+    width: 100%;
+    max-width: 800px; /* Establece un ancho máximo para el contenido */
+    margin: 20px auto; /* Centra el contenido horizontalmente */
+   }
+   
+   .intro, .features {
+    margin-bottom: 20px;
+   }
+   
+   .features ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .features li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+   }
+   
+   .features li::before {
+    content: '✔'; /* Icono de check */
+    position: absolute;
+    left: 0;
+    color: #007bff;
+   }
+   
+   /* Estilos responsivos para mejorar la experiencia en dispositivos móviles */
+   @media (max-width: 768px) {
+    .main-content {
+       padding: 10px;
+    }
+   }
