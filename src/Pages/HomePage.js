@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomePage.css"; // Asegúrate de crear este archivo CSS
-import "../Components/HeaderContent";
 import Sec2 from "../Components/Sec2";
 import Sec3 from "../Components/Sec3";
 import Features from "../Components/Features";

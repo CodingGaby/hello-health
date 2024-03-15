@@ -1,9 +1,6 @@
-import React, { useState } from "react";
 import "./Medicines.css";
-import Modal from "../Components/Modal";
 
 const Medicamentos = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const medicamentos = [
     {
       nombre: "Insulina Humana",
@@ -172,9 +169,6 @@ const Medicamentos = () => {
                     </svg>
                     {item.farmacia}
                   </span>
-                </div>
-                <div>
-                  <Modal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
                 </div>
               </div>
             </li>

@@ -1,9 +1,8 @@
 import React from 'react';
 import './HomePage.css'; // Asegúrate de crear este archivo CSS
-import '../Components/HeaderContent';
 
 const ContactPage = () => {
- return (  
+ return (
   <div class="flex h-[730px] items-center justify-start bg-white">
     <div class="mx-auto w-full max-w-lg p-10 bg-white border-gray-300 border-[1px] rounded-md shadow-lg">
       <h1 class="text-gray-800 text-3xl font-bold">Contactanos</h1>

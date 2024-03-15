@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomePage.css'; // Asegúrate de crear este archivo CSS
-import '../Components/HeaderContent';
 
 const AboutPage = () => {
  return (
