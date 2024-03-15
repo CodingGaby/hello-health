@@ -1,33 +1,28 @@
-import React from 'react';
-import './HomePage.css'; // Asegúrate de crear este archivo CSS
-import '../Components/HeaderContent';
+import React from "react";
+import "./HomePage.css"; // Asegúrate de crear este archivo CSS
+import "../Components/HeaderContent";
+import Sec2 from "../Components/Sec2";
+import Sec3 from "../Components/Sec3";
+import Features from "../Components/Features";
 
 const HomePage = () => {
- return (
-    <div className="home-page">'
-    <header className="header">
-      <h1>Hello Health</h1>
-      <p>Rastreabilidad de Medicamentos en la Cadena de Suministro</p>
-    </header>
-      <main className="main-content">
-        <section className="intro">
-          <h2>Bienvenido a Hello Health</h2>
-          <p>
-            Somos una plataforma innovadora que utiliza la tecnología blockchain para mejorar la rastreabilidad de medicamentos. Nuestro sistema permite a los usuarios seguir el estado de los medicamentos, desde su fabricación hasta su entrega final, asegurando la calidad y seguridad de los productos farmacéuticos.
+  return (
+    <div className="home-page" class="text-gray-900">
+      <header class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
+        <div class="flex justify-center flex-col p-5 items-center w-full drop-shadow-2xl">
+          <h1 class="text-white text-9xl font-bold ">PharPhat</h1>
+          <p class=" text-white text-3xl underline font-medium">
+            Rastreabilidad de Medicamentos en la Cadena de Suministro
           </p>
-        </section>
-        <section className="features">
-          <h2>Características Principales</h2>
-          <ul>
-            <li>Rastreo en tiempo real de medicamentos</li>
-            <li>Alertas de caducidad</li>
-            <li>Integración con blockchain para garantizar la autenticidad</li>
-            <li>Acceso a información detallada de cada medicamento</li>
-          </ul>
-        </section>
+        </div>
+      </header>
+      <main>
+        <Sec2 />
+        <Features />
+        <Sec3 />
       </main>
     </div>
- );
-}
+  );
+};
 
 export default HomePage;

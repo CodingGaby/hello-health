@@ -3,13 +3,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => (
   <>
     <nav className="navbar">
-      <div className="logo">Hello Health</div>
+      <div className="logo">
+        <a href="/">
+          Hello Health
+        </a>  
+      </div>
       <ul className="nav-links">
         <li>
           <Link to="/">Inicio</Link>
         </li>
         <li>
-          {" "}
           <Link to="/medicamentos">Medicamentos</Link>
         </li>
         <li>
@@ -22,5 +25,6 @@ const Navbar = () => (
     </nav>
   </>
 );
+
 
 export default Navbar;
