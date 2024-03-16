@@ -97,7 +97,11 @@ const Medicamentos = () => {
               </div>
               <div className="items-center gap-x-3 mt-6 md:mt-0 sm:flex">
                 <a
+<<<<<<< HEAD
                   href="/"
+=======
+                  href="#"
+>>>>>>> 8335f8b8f9e8ead41b14de1bff13e34aaa9a4b6e
                   className="block px-4 py-2 text-center text-white duration-150 font-bold bg-indigo-600 rounded-lg hover:bg-indigo-500 active:bg-indigo-700 md:text-sm"
                 >
                   Agregar
