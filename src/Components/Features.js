@@ -1,4 +1,4 @@
-export default () => {
+const Features = () => {
   const features = [
     {
       title: "Rastreo en tiempo real de medicamentos",
@@ -56,3 +56,5 @@ export default () => {
     </section>
   );
 };
+
+export default Features

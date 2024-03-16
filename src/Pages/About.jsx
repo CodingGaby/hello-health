@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div className="home-page flex flex-col items-center p-[20px]">
     <h1 className="text-gray-900 font-bold text-3xl mb-2">Sobre PharPath</h1>
     <p className="text-gray-700 text-xs mt-2">Escrito por:
-      <a href="#" className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
+      <a href="/about" className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
         ~Equipo PharPath
       </a>
     </p>
@@ -37,7 +37,7 @@ const AboutPage = () => {
   <div className="home-page flex flex-col items-center p-[20px]">
     <h1 className="text-gray-900 font-bold text-3xl mb-2">Apoya PharPath</h1>
     <p className="text-gray-700 text-xs mt-2">Escrito por:
-      <a href="#" className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
+      <a href="/about" className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
         ~Equipo PharPath
       </a>
     </p>

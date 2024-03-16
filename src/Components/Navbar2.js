@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default () => {
+const Navbar2 = () => {
   const [state, setState] = useState(false);
 
   // Replace javascript:void(0) paths with your paths
@@ -89,7 +89,7 @@ export default () => {
             <div className="space-y-3 items-center gap-x-6 md:flex md:space-y-0">
               <li>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="block py-3 px-4 font-medium text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow md:inline"
                 >
                   Conectar
@@ -102,3 +102,5 @@ export default () => {
     </nav>
   );
 };
+
+export default Navbar2;

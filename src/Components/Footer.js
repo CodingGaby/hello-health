@@ -1,19 +1,19 @@
-export default () => {
+const Footer = () => {
   const footerNavs = [
     {
-      href: "javascript:void()",
+      href: "/",
       name: "Terms",
     },
     {
-      href: "javascript:void()",
+      href: "/",
       name: "License",
     },
     {
-      href: "javascript:void()",
+      href: "/",
       name: "Privacy",
     },
     {
-      href: "javascript:void()",
+      href: "/",
       name: "About us",
     },
   ];
@@ -36,3 +36,5 @@ export default () => {
     </footer>
   );
 };
+
+export default Footer;

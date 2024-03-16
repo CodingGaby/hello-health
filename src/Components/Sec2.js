@@ -1,4 +1,4 @@
-export default () => {
+const Sec2 = () => {
   return (
     <section className="py-14">
       <div className="max-w-screen-xl mx-auto md:px-8">
@@ -25,7 +25,7 @@ export default () => {
               asegurando la calidad y seguridad de los productos farmacéuticos.
             </p>
             <a
-              href="javascript:void(0)"
+              href="/"
               className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
             >
               Conoce mas
@@ -48,3 +48,5 @@ export default () => {
     </section>
   );
 };
+
+export default Sec2;
